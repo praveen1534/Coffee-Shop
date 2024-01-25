@@ -85,7 +85,7 @@ span.logo{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 90vh;
+    height: 100vh;
 }
 .backimg i{
     position:absolute;
@@ -571,19 +571,19 @@ font-size: 10px;
 }
 @media only screen and (min-width:300px) and (max-width:500px) {
      .nav{
-        width: 200%;
-        height: 30%;
+        width: 100%;
+        
         
      }
-    .nav-bar{
-        /* height: 30%; */
+     .nav-bar{
+         height: 30%; 
         padding: 30px 40px;
-    } 
+    }  
     .menu{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 100%;
         height: 200vh;
         position: fixed;
         top: 0;
@@ -613,19 +613,19 @@ font-size: 10px;
     }
      .backimg {
         width: 100%;
-        background-size: cover;
+         background-size: cover;
         background-position: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
         display: flex;
-        height: 300vh;
+        height: 100vh;
     }
 
     .backimg i{
         position: absolute;
-        left: 200%;
-        top: 200%;
-        width: 180%;
+        left: 0%;
+        top: 0%;
+        width: 100%;
         height: 70vh;
         font-size: 50px;
         /* border: 2px solid black; */
@@ -643,7 +643,7 @@ font-size: 10px;
     }
     .best{
         text-align: center;
-        width:400% ;
+        width:100% ;
     }
     .best1,.best2,.best3{
         margin: auto;
@@ -674,7 +674,7 @@ font-size: 10px;
       padding: 20px;
     }
     .favorite{
-        width: 400%;
+        width: 100%;
         background-color: white;
       
     }
@@ -721,8 +721,8 @@ font-size: 10px;
         padding-top: 70px;
     }
 .cups{
-    width: 400%;
-    margin-top: 1800%;
+    width: 100%;
+    /* margin-top: 1800%; */
     height: 300vh;
 
 }
@@ -754,7 +754,7 @@ font-size: 10px;
 
 .cup2{
     width: 90%;
-    height: 400%;
+    height: 100%;
     position: relative;
     left: 5%;
     top: 800%;
@@ -768,7 +768,7 @@ font-size: 10px;
     height: 50%;
 }
 .overall{
-    width: 400%;
+    width: 100%;
     height: 200vh;
     margin-top: 300%;
 }
@@ -794,7 +794,7 @@ font-size: 10px;
     font-size: 40px;
 }
 .recipe{
-    width: 400%;
+    width: 100%;
 
 }
 .recipe h1{
@@ -846,14 +846,14 @@ font-size: 10px;
     display: grid;
 }
 .aboutoverall{
-    width: 400%;
+    width: 100%;
     height: 300vh;
     margin-top: 10%;
     
 
 }
 .contactoverall{
-    width: 400%;
+    width: 100%;
     height: 300vh;
     
 
@@ -901,7 +901,7 @@ font-size: 10px;
     font-size: 40px;
 } 
 .footer{
-    width:400% ;
+    width:100% ;
     display: grid;
     grid-template-columns: auto;
     font-size: 50px;
