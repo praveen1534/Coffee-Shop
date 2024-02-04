@@ -569,7 +569,7 @@ font-size: 10px;
 
 
 }
-@media only screen and (min-width:300px) and (max-width:500px) {
+@media only screen and (min-width:287px) and (max-width:500px) {
      .nav{
         width: 110%;
         
