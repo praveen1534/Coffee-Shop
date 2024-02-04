@@ -131,7 +131,7 @@ span.logo{
     
 }
 .best img{
-    width: 100%;;
+    width: 100%;
     height: 200px;
 }
 .best1 p,.best2 p,.best3 p{
@@ -640,6 +640,7 @@ font-size: 10px;
         display: grid;
         width: 100%;
         gap: 100px;
+        padding: 0;
         
     }
     .best{
@@ -650,22 +651,23 @@ font-size: 10px;
     .best1,.best2,.best3{
         margin: auto;
         width: 60%;
-        height: 1200px;
+        height: 540px;
     }
     .best img{
-        height:600px ;
+        height:200px;
+        width: 100%;
     }
     .bests p {
-        font-size: 30px;
+        font-size: 20px;
     }
     .bests h2 {
-        font-size: 30px;
+        font-size: 20px;
     } 
     .bests h3{
-        font-size: 30px;
+        font-size: 20px;
     }
     .best h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .best p{
         font-size: 20px;
