@@ -578,7 +578,7 @@ font-size: 10px;
      }
      .nav-bar{
          height: 30%; 
-        /* padding: 30px 40px; */
+        padding:0;
     }  
     .menu{
         flex-direction: column;
