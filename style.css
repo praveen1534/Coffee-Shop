@@ -643,7 +643,8 @@ font-size: 10px;
     }
     .best{
         text-align: center;
-        width:100% ;
+        width:115% ;
+        padding: 0;
     }
     .best1,.best2,.best3{
         margin: auto;
