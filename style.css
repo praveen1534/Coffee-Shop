@@ -60,7 +60,7 @@ span.logo{
 .open-menu,.close-menu{
     position: absolute;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 30px;
     display: none;
 
 }
