@@ -773,7 +773,7 @@ font-size: 10px;
 }
 .backgroundtext{
     position: relative;
-    top:10%;
+    top:20%;
     width: 90%;
 }
 .backgroundtext h6{
@@ -814,7 +814,7 @@ font-size: 10px;
 }
 .recipes{
     display: grid;
-    gap:15%; 
+    gap:10%; 
     
     
 }
